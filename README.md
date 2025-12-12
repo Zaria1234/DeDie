@@ -2,7 +2,7 @@
 
 Prototype d'une plateforme de signalement anonyme d'incidents de sécurité aéronautique.
 
-## 📱 Fonctionnalités
+##  Fonctionnalités
 
 ### Pour le personnel aéroportuaire :
 - Signalement 100% anonyme d'incidents (FOD, équipement, comportement)
@@ -14,7 +14,7 @@ Prototype d'une plateforme de signalement anonyme d'incidents de sécurité aér
 - Gestion des signalements (nouveau → en cours → traité)
 - Vue détaillée de chaque incident
 
-## 🚀 Démarrage rapide
+##  Démarrage rapide
 
 ### 1. Backend (Node.js)
 ```bash
