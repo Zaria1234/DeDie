@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/screens/user/Profil.dart';
-import 'package:frontend/screens/admin/admin_login.dart';
+// import 'package:frontend/screens/admin/admin_login.dart';
 
 void main() {
   runApp(DedieApp());

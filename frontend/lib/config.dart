@@ -1,19 +1,16 @@
 class ApiConfig {
-  // Pour émulateur Android
+  // POUR ÉMULATEUR ANDROID
   static const String baseUrl = 'http://10.0.2.2:3000';
 
-  // Pour émulateur iOS
+  // POUR ÉMULATEUR iOS (décommente si besoin)
   // static const String baseUrl = 'http://localhost:3000';
 
-  // Pour téléphone physique (remplace X.X par ton IP locale)
+  // POUR TÉLÉPHONE PHYSIQUE (sur même WiFi)
   // static const String baseUrl = 'http://192.168.X.X:3000';
 
-  // Endpoints
-  static String generateUserId = '$baseUrl/api/generate-user-id';
-  static String submitReport = '$baseUrl/api/report';
-  static String adminLogin = '$baseUrl/api/admin/login';
-  static String adminReports = '$baseUrl/api/admin/reports';
-  static String adminDashboardStats = '$baseUrl/api/admin/dashboard-stats';
+  // Endpoints UTILISATEURS uniquement
+  static String get generateUserId => '$baseUrl/api/generate-user-id';
+  static String get submitReport => '$baseUrl/api/report';
   static String userReports(String userId) =>
       '$baseUrl/api/user/reports/$userId';
 }
